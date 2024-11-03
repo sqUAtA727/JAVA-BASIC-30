@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form + Table</title>
+  </head>
+  <body>
+    <h1>Table + Form</h1>
+    <table>
+      <form>
+        <thead>
+          <tr>
+            <b>Đăng ký</b>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th><label>Full name</label></th>
+            <th><input type="text" placeholder="Nhập fullname" /></th>
+          </tr>
+          <tr>
+            <th><label>Username</label></th>
+            <th><input type="text" placeholder="Nhập tên" /></th>
+          </tr>
+          <tr>
+            <th><label>Password</label></th>
+            <th><input type="password" placeholder="Nhập mật khẩu" /></th>
+          </tr>
+          <tr>
+            <th><label>Nhập lại Password</label></th>
+            <th><input type="password" placeholder="Nhập lại mật khẩu" /></th>
+          </tr>
+          <tr>
+            <th><label>Giới tính</label></th>
+            <th>
+              <input type="radio" id="male" name="gender" value="Male" />
+              <label for="male">Nam</label>
+              <input type="radio" id="female" name="gender" value="Female" />
+              <label for="female">Nữ</label>
+            </th>
+          </tr>
+          <tr>
+            <th><label>Ngày sinh</label></th>
+            <th><input type="date" /></th>
+          </tr>
+          <tr>
+            <th><label>Địa chỉ</label></th>
+            <th><input type="text" /></th>
+          </tr>
+          <tr>
+            <th><label>Avatar</label></th>
+            <th><input type="file" /></th>
+          </tr>
+          <tr>
+            <th><label>Sở thích</label></th>
+            <th>
+              <input type="checkbox" />
+              <label>Xem phim</label>
+              <input type="checkbox" />
+              <label>Chơi game</label>
+              <input type="checkbox" />
+              <label>Thể thao</label>
+            </th>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>
+              <input type="reset" />
+            </th>
+            <th>
+              <input type="submit" />
+            </th>
+          </tr>
+        </tfoot>
+      </form>
+    </table>
+  </body>
+</html>
