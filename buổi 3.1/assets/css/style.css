@@ -1,0 +1,54 @@
+/* reset Browser */
+
+* {
+  padding: 0; /*khoảng cách phần tử in*/
+  margin: 0; /*khoảng cách phần tử out*/
+  box-sizing: border-box;
+}
+.headline_1 {
+  color: red;
+}
+.headline_2 {
+  color: blue;
+}
+#para_1 {
+  color: aqua;
+}
+#para_2 {
+  color: blueviolet;
+}
+
+/* Selector: Father and son betch */
+
+h3 {
+  color: pink;
+}
+div h3 {
+  color: blue;
+}
+
+/* Selector: Link */
+
+a:visited {
+  color: gray;
+}
+a:link {
+  color: blue;
+}
+
+/* Margin/Padding */
+.item_1 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-top: 50px;
+    padding-top: 30px;
+    border: 5px solid gray;
+    border-radius: 15%;
+}
+.item_2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: none
+}
