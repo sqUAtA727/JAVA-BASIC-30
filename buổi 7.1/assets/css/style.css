@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Transform: translate(x,y) */
+.box-1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: translate(50px,50px);
+}
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin-top: 100px;
+    margin-left:100px ;
+
+}
+
+.box-2:hover {
+    transform: scale(2);;
+}
+
+.box-3 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transform: rotate(20deg);
+} 
+
+/* Kết hợp */
+.box-4 {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin-left: 500px;
+    transition:transform 1s;
+}
+
+.box-4:hover {
+    transform: rotate(360deg);
+}
