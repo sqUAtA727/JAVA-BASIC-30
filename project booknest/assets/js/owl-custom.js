@@ -5,7 +5,7 @@ $(document).ready(function () {
     margin: 10, //Khoảnh cách item
     nav: false, //Nút định hướng
     autoplay: true,
-    autoplayTimeout: 1000,
+    autoplayTimeout: 10000,
     responsive: {
       0: {
         items: 1,
